@@ -24,7 +24,7 @@ class Assets {
 
   /// Assets for assetsImagesDashboard
   /// lib/assets/images/dashboard.svg
-  static const String assetsImagesDashboard = "lib/assets/images/dashboard.svg";
+  static const String assetsImagesDashboard = "lib/assets/images/dash.svg";
 
   /// Assets for assetsImagesExpenses
   /// lib/assets/images/expenses.svg
