@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_dash_board/widget/all_expensess_header.dart';
 
 class AllExpensess extends StatelessWidget {
   const AllExpensess({super.key});
@@ -6,13 +7,13 @@ class AllExpensess extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(20),
+      padding: const EdgeInsets.all(20),
       decoration: ShapeDecoration(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         color: Colors.white,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
-      child: Column(
-        children: [],
+      child: const Column(
+        children: [AllExpensessHeader()],
       ),
     );
   }
