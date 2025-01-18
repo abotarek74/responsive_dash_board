@@ -30,7 +30,7 @@ class RangeOption extends StatelessWidget {
             angle: -1.57079633,
             child: const Icon(
                 color: Color(0XFF064061), Icons.arrow_back_ios_new_outlined),
-          )
+          ),
         ],
       ),
     );
